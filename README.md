@@ -36,6 +36,7 @@ The live Kubernetes manifests are managed in `../website-k8s`.
 
 ## Container Runtime
 
-The dashboard is deployed with a non-root runtime in Kubernetes. The cluster
-manifests also provide a writable log directory at `/app/config/logs` for the
-Homepage container.
+The dashboard image is built to run as fixed non-root UID/GID `10001`.
+It prepares `/app/config`, `/app/public`, and `/app/config/logs` so the
+Kubernetes deployment can safely enforce `runAsNonRoot`, `runAsUser`, and
+`runAsGroup`.
