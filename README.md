@@ -33,3 +33,9 @@ droppert_dev/
 ## Deployment
 
 The live Kubernetes manifests are managed in `../website-k8s`.
+
+## Container Runtime
+
+The dashboard is deployed with a non-root runtime in Kubernetes. The cluster
+manifests also provide a writable log directory at `/app/config/logs` for the
+Homepage container.
