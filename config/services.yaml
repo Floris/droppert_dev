@@ -1,0 +1,28 @@
+- Droppert Tools:
+    - JSON Formatter:
+        icon: si-json-#38bdf8
+        href: https://json.droppert.dev
+        siteMonitor: https://json.droppert.dev
+        description: Prettify, validate, minify and inspect JSON payloads
+    - Diff Viewer:
+        icon: mdi-compare-horizontal-#fb923c
+        href: https://diff.droppert.dev
+        siteMonitor: https://diff.droppert.dev
+        description: Compare text, JSON, YAML and TOML with structured normalization
+    - Converter:
+        icon: mdi-swap-horizontal-bold-#4ade80
+        href: https://convert.droppert.dev
+        siteMonitor: https://convert.droppert.dev
+        description: Convert between JSON, YAML and TOML with formatting controls
+
+- Platform:
+    - ArgoCD:
+        icon: si-argo-#60a5fa
+        href: https://argocd.droppert.dev
+        siteMonitor: https://argocd.droppert.dev
+        description: GitOps control plane for deployments
+    - Monitoring:
+        icon: mdi-chart-line-#facc15
+        href: https://monitoring.droppert.dev
+        siteMonitor: https://monitoring.droppert.dev
+        description: Cluster and application observability

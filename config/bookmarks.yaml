@@ -1,0 +1,17 @@
+- Repositories:
+    - JSON:
+        - abbr: JS
+          href: https://github.com/Floris/json_droppert_dev
+          description: Source for the JSON formatter
+    - Diff:
+        - abbr: DF
+          href: https://github.com/Floris/diff_droppert_dev
+          description: Source for the diff tool
+    - Convert:
+        - abbr: CV
+          href: https://github.com/Floris/converter_droppert_dev
+          description: Source for the converter tool
+    - K8s:
+        - abbr: K8
+          href: https://github.com/Floris/website-k8s
+          description: GitOps deployment source of truth

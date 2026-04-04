@@ -1,0 +1,23 @@
+title: droppert.dev
+description: Central dashboard for the Droppert developer tools
+theme: dark
+color: sky
+language: en
+target: _self
+headerStyle: boxedWidgets
+iconStyle: theme
+useEqualHeights: true
+statusStyle: dot
+disableCollapse: true
+layout:
+  Droppert Tools:
+    style: row
+    columns: 3
+  Platform:
+    style: row
+    columns: 2
+background:
+  image: /images/droppert-grid.svg
+  opacity: 25
+favicon: /icons/droppert-mark.svg
+cardBlur: sm
