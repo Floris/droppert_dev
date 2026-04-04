@@ -7,7 +7,6 @@
 - `json.droppert.dev`
 - `diff.droppert.dev`
 - `convert.droppert.dev`
-- platform shortcuts for ArgoCD and monitoring
 
 ## Local development
 

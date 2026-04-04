@@ -14,15 +14,3 @@
         href: https://convert.droppert.dev
         siteMonitor: https://convert.droppert.dev
         description: Convert between JSON, YAML and TOML with formatting controls
-
-- Platform:
-    - ArgoCD:
-        icon: si-argo-#60a5fa
-        href: https://argocd.droppert.dev
-        siteMonitor: https://argocd.droppert.dev
-        description: GitOps control plane for deployments
-    - Monitoring:
-        icon: mdi-chart-line-#facc15
-        href: https://monitoring.droppert.dev
-        siteMonitor: https://monitoring.droppert.dev
-        description: Cluster and application observability
