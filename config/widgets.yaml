@@ -1,18 +1,18 @@
-- logo:
-    icon: /icons/droppert-mark.svg
-    href: https://droppert.dev
+# - logo:
+#     icon: /icons/droppert-mark.svg
+#     href: https://droppert.dev
 
 - search:
-    provider: duckduckgo
+    provider: google
     target: _blank
 
-- datetime:
-    text_size: xl
-    format:
-      dateStyle: medium
-      timeStyle: short
+# - datetime:
+#     text_size: xl
+#     format:
+#       dateStyle: medium
+#       timeStyle: short
 
-- resources:
-    cpu: true
-    memory: true
-    disk: /
+# - resources:
+#     cpu: true
+#     memory: true
+#     disk: /
