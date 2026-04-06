@@ -1,21 +1,21 @@
 - Repositories:
     - Platform:
-        - abbr: DP
-          href: https://github.com/Floris/droppert-platform
-          description: Monorepo for the Droppert tools
-    - JSON:
-        - abbr: JS
-          href: https://github.com/Floris/droppert-platform/tree/main/apps/json
-          description: JSON formatter app in the monorepo
-    - Diff:
-        - abbr: DF
-          href: https://github.com/Floris/droppert-platform/tree/main/apps/diff
-          description: Diff tool app in the monorepo
-    - Convert:
-        - abbr: CV
-          href: https://github.com/Floris/droppert-platform/tree/main/apps/converter
-          description: Converter app in the monorepo
-    - K8s:
-        - abbr: K8
-          href: https://github.com/Floris/website-k8s
-          description: GitOps deployment source of truth
+        - abbr: REPO
+          href: https://github.com/Floris/droppert_dev
+          description: Repository of droppert.dev
+    # - JSON:
+    #     - abbr: JS
+    #       href: https://github.com/Floris/droppert-platform/tree/main/apps/json
+    #       description: JSON formatter app in the monorepo
+    # - Diff:
+    #     - abbr: DF
+    #       href: https://github.com/Floris/droppert-platform/tree/main/apps/diff
+    #       description: Diff tool app in the monorepo
+    # - Convert:
+    #     - abbr: CV
+    #       href: https://github.com/Floris/droppert-platform/tree/main/apps/converter
+    #       description: Converter app in the monorepo
+    # - K8s:
+    #     - abbr: K8
+    #       href: https://github.com/Floris/website-k8s
+    #       description: GitOps deployment source of truth
