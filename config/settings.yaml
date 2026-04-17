@@ -12,7 +12,7 @@ disableCollapse: true
 layout:
   Droppert Tools:
     style: row
-    columns: 3
+    columns: 4
 background:
   image: /images/droppert-grid.svg
   opacity: 25

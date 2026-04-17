@@ -5,6 +5,7 @@
 ## Included links
 
 - `json.droppert.dev`
+- `xml.droppert.dev`
 - `diff.droppert.dev`
 - `convert.droppert.dev`
 

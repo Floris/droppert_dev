@@ -4,6 +4,11 @@
         href: https://json.droppert.dev
         siteMonitor: https://json.droppert.dev
         description: Prettify, validate, minify and inspect JSON payloads
+    - XML Formatter:
+        icon: mdi-code-tags-#14b8a6
+        href: https://xml.droppert.dev
+        siteMonitor: https://xml.droppert.dev
+        description: Format, validate, minify and inspect XML with a node tree
     - Diff Viewer:
         icon: mdi-compare-horizontal-#fb923c
         href: https://diff.droppert.dev
