@@ -4,6 +4,9 @@ LABEL org.opencontainers.image.title="droppert.dev"
 LABEL org.opencontainers.image.description="Homepage dashboard for the Droppert developer tools"
 LABEL org.opencontainers.image.source="https://github.com/Floris/droppert_dev"
 
+ARG VCS_REF="unknown"
+LABEL org.opencontainers.image.revision="${VCS_REF}"
+
 USER root
 
 COPY --chown=10001:10001 config/ /app/config/

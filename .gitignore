@@ -1,2 +1,14 @@
 .DS_Store
 Thumbs.db
+
+# Local configuration and credentials
+.env
+.env.*
+!.env.example
+*.pem
+
+# Editor and tool output
+.idea/
+.vscode/
+*.swp
+*.tmp
