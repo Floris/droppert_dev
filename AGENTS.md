@@ -26,10 +26,12 @@ and its CI release pipeline.
 
 ## Factory workflow
 
-- The factory Oracle owns planning, Beads state, commits, pushes, merges,
+Tasks live in `Floris/software-factory` Issues and use `repository_id: droppert_dev`.
+
+- The factory Oracle owns planning, central GitHub Issues state, commits, pushes, merges,
   deployment coordination, and final verification.
-- An implementation worker edits only its assigned Bead and must not edit
-  `.beads`, commit, push, merge, or deploy.
+- An implementation worker edits only its assigned issue scope and must not
+  mutate Issues, commit, push, merge, or deploy.
 - Product changes are delivered through pull requests. Merging this repository
   publishes an immutable `sha-<full-git-sha>` image; deployment is a separate
   GitOps change in `website-k8s`.
